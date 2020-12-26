@@ -1,0 +1,42 @@
+#footer{
+	
+	height:287px ;
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-width: 1024px;
+}
+.w-920{
+	width: 920px;
+}
+.w-18{
+	width: 18px;height: 18px;
+}
+.bottom{
+	min-width: 1024px;
+	line-height: 4.375rem;
+	height: 70px;
+	background-color: #333;
+}
+.font-14{
+	font-size: 14px;
+	color: #aaa;
+}
+.pt-60{
+	padding-top: 60px;
+}
+.ml-200{
+	margin-left: 200px;
+}
+.p-22{
+	font-size:22px ;
+	color:#eee;
+}
+.p-12{
+	font-size: 12px;
+	color: #aaa;
+}
+.w-90{
+	width: 90px;height: 90px;
+}

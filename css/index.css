@@ -1,0 +1,142 @@
+      *,#con{
+				margin: 0;
+				padding: 0;
+			}
+			#top{
+				min-height:445px ;
+				display: flex;
+				
+				flex: 0 0 100%;
+				background: url(../img/top-bg.png) no-repeat;
+				background-size: cover;
+				padding-bottom: 40%;
+				justify-content: center;
+				min-width: 1024px;
+			}
+			#top-title{
+				
+				height: 70px;
+				margin: auto;
+				display: flex;
+				flex-wrap: nowrap;
+				
+			}
+			#top-lg{
+				margin-top: 11px;
+				width: 163px;height: 48px;
+			}
+			#top-lg img{
+				width: 100%;
+			}
+			
+			#top-ul>ul{
+				margin-left:280px;
+				list-style: none;
+			}
+			#top-ul>ul>li{
+				float: left;
+				margin-left: 40px;
+			}
+			#top-ul a{
+				display: block;
+				height: 70px;
+				line-height: 70px;
+				text-align: center;
+				text-decoration: none;
+				font-size: 16px;
+				color:#fff;
+			}
+			
+			#top-ul a:hover{
+				font-weight: bold;
+				border-bottom: 3px solid #ffbd27;
+			}
+			#top-ul a:focus{
+				font-weight:none;
+				border: none;
+				font-weight: bold;
+				border-bottom: 3px solid #ffbd27;
+			}
+			#middle-ul>ul>li{
+				float: left;
+				list-style: none;
+			}
+			#middle{
+				width: 100%;
+				height: 185px;
+				margin-bottom: 90px;
+			}
+			#middle-ul{
+				width: 999px;
+				margin: auto;
+				
+				
+			}
+			#middle-ul ul{
+				
+				margin-top:-8%;
+				display: flex;
+				flex-wrap: nowrap;
+			}
+			#middle-ul a{
+				display: block;
+				text-decoration: none;
+				width: 333px;height: 173px;
+				padding: 56px 0;
+				text-align: center;
+				vertical-align:middle;
+				
+			}
+			#middle-ul>ul>li:first-child>a{
+				background: #658FF7;
+			}
+			#middle-ul>ul>li:nth-child(2)>a{
+				background: #F54C45;
+			}
+			#middle-ul>ul>li:last-child>a{
+				background: #FFBD27;
+			}
+			#middle-ul>ul{
+				padding: 0;
+			}
+			#middle-ul>ul>li>a>div img{
+				text-align:middle;
+			}
+			#middle-ul>ul>li>a>div>span{
+				color: #fff;
+				font-size: 26px;
+			}
+			#middle-ul a:hover{
+				height: 185px;
+				transition: all 0.4s; 
+				margin-top: -6px;
+			}
+			#body1{
+				width: 1024px;
+				
+			}
+			#body1-img{
+				width: 35%;
+			}
+			#body1>div:nth-child(2){
+				font-size:40px ;
+			}
+		.w-40{
+			width: 40px;
+			height: 40px;
+		}
+		.font-26{
+			font-size: 26px;
+		}
+		#demo{
+			padding:1rem;
+			width: 346px;
+			height: 710px;
+			background-image: url(../img/手机外壳2@2x.png);
+			background-size: 100% 100%;
+		}
+		.cursor-pointer{
+			cursor: pointer;
+		}
+		
+		
