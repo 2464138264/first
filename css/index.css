@@ -2,6 +2,8 @@
 				margin: 0;
 				padding: 0;
 			}
+			
+			
 			#top{
 				min-height:445px ;
 				display: flex;
@@ -118,6 +120,9 @@
 			#body1-img{
 				width: 35%;
 			}
+			#body2-img{
+				width: 35%;
+			}
 			#body1>div:nth-child(2){
 				font-size:40px ;
 			}
@@ -127,6 +132,14 @@
 		}
 		.font-26{
 			font-size: 26px;
+		}
+		.font-26:hover{
+			margin-top: -20px;
+			font-size:40px;
+		}
+		.font-16{
+			
+			font-size: 16px;
 		}
 		#demo{
 			padding:1rem;
@@ -138,5 +151,17 @@
 		.cursor-pointer{
 			cursor: pointer;
 		}
-		
-		
+		#body2{
+			
+			width: 100%;
+			height: 56.25rem;
+			background-image: linear-gradient(-135deg,#ffd161,#ffbd27);
+		}
+		.body2-1{
+			width: 1130px;
+			margin: auto;
+		}
+		#body2-img{
+			width: 35%;
+		}
+	
